@@ -9,7 +9,7 @@
 			$('#second').show();
 			$('#second').animate({
 				marginLeft: '0em'
-			}, 1000);
+			}, 500);
 		});
 	});
 
@@ -23,7 +23,7 @@
 			$('#first').show()
 			$('#first').animate({
 				marginLeft: '0em'
-			}, 1000);
+			}, 500);
 		});
 	});		
 	
@@ -38,7 +38,7 @@
 			$('#third').show()
 			$('#third').animate({
 				marginTop: '0em'
-			}, 1000);
+			}, 500);
 		});
 	});
 
@@ -50,7 +50,7 @@
 			$('#first').show()
 			$('#first').animate({
 				marginTop: '0em'
-			}, 1000);
+			}, 500);
 		});
 	});
 
@@ -63,7 +63,7 @@
 			$('#fourth').show()
 			$('#fourth').animate({
 				marginLeft: '0em'
-			}, 1000);
+			}, 500);
 		});
 	});
 
@@ -75,7 +75,7 @@
 			$('#first').show()
 			$('#first').animate({
 				marginLeft: '0em'
-			}, 1000);
+			}, 500);
 		});
 	});
 
