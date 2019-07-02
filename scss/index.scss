@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap');
+
+html, body {
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wp {
+	width: 100%;
+	height: 100%;
+	background-color:  #5DADE2;
+	//display: none;
+
+	.title {
+		text-align: center;
+		font-size: 5em;
+		padding-top: 30vh;
+		color: #FDFEFE;
+		font-family: 'Cinzel Decorative', cursive;
+	}
+	#nav {
+		width: 68%;
+		display: block;
+		margin: 3em auto;
+		background-color: green;
+		border: 0.1em solid #2C3E50;
+		#contact {
+			width: 27%;
+			float: left;
+			background-color: white;
+			font-size: 3em;
+			text-align: center;
+			padding: 0.5em;
+			margin: 0.35em;
+			cursor: pointer;
+
+			&:hover {
+				color: white;
+				background-color: #212F3D;
+			}
+		}
+		#example {
+			width: 27%;
+			float: left;
+			background-color: white;
+			font-size: 3em;
+			text-align: center;
+			padding: 0.5em;
+			margin: 0.35em;
+			cursor: pointer;
+
+			&:hover {
+				color: white;
+				background-color: #212F3D;
+			}
+		}
+		#portfolio {
+			width: 27%;
+			float: left;
+			background-color: white;
+			font-size: 3em;
+			text-align: center;
+			padding: 0.5em;
+			margin: 0.35em;
+			cursor: pointer;
+
+			&:hover {
+				color: white;
+				background-color: #212F3D;
+			}
+		}
+	}
+}
+
+.ct {
+	width: 100%;
+	height: 100%;
+	display: none;
+	#ctBack {
+		position: absolute;
+		right: 0.2em;
+		font-size: 7em;
+		cursor: pointer;
+	}
+	.title {
+		font-size: 3em;
+		text-align: center;
+		padding: 1em;
+	}
+	.info {
+		text-align: center;
+		margin-left: 25%;
+	 	p {
+	 		font-size: 2em;
+			float: left;
+			margin: 0em 2em;
+	 		a {
+	 			text-decoration: none;
+	 			color: black;
+	 		}
+	 	}
+		address {
+			font-size: 2em;
+		}
+	}
+	
+	.map {
+		float: left;
+		width: 100%;
+		height: 60%;
+		margin-top: 2em;
+		text-align: center;
+		font-size: 2em;
+		.liveMap {
+			width: 100%;
+			height: 100%;
+
+			.liveMap {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
+.sp {
+	width: 100%;
+	height: 100%;
+	display: none;
+	#spBack {
+		position: absolute;
+		font-size: 7em;
+		right: 1em;
+		cursor: pointer;
+	}
+	.head {
+		height: 10%;
+		p {
+			padding: 1em;
+			text-align: center;
+			font-size: 2.5em;
+		}
+		
+	}
+	.body {
+		height: 90%;
+		p {
+			font-size: 2em;
+			margin-left: 2%;
+		}
+		.sample {
+			float: left;
+			margin: 2.5%;
+			width: 20%;
+			height: 50%;
+			background-color: crimson;
+		}
+
+		ul {
+			font-size: 1.5em;
+			margin-left: 5em;
+			padding-bottom: 5em;
+			li {
+				margin: 1em;
+			}
+		}
+	}
+
+}
+
+.pf {
+	width: 100%;
+	height: 100%;
+	display: none;
+	
+
+	#pfBack {
+		position: absolute;
+		font-size: 7em;
+		cursor: pointer;
+	}
+	.info {
+		width: 50%;
+		height: 100%;
+		float: left;
+
+		.profile {
+			width: 40%;
+			height: 40%;
+			background-color: black;
+			display: block;
+			margin: 5% auto;
+		}
+		.message {
+			width: 100%;
+			height: 50%;
+			
+			p {
+				text-align: left;
+				font-size: 2em;
+				margin: 0% 5%;
+				text-indent: 7%;
+			}
+		}
+	}
+	.skills {
+		width: 50%;
+		height: 100%;
+		float: left;
+
+		.specialty {
+			width: 100%;
+			height: 30%;
+			background-color: white;
+
+			p {
+				font-size: 2.5em;
+			}
+			.fed {
+				width: 100%;
+				height: 30%;
+				
+				p {
+					font-size: 2em;
+					margin: 3% 15%;
+				}
+				.fedp {
+					width: 70%;
+					height: 10%;
+					background-color: lightgrey;
+					margin: 0% 15%;
+
+					.fedcp {
+						width: 90%;
+						height: 100%;
+						background-color: black;
+					}
+				}
+			}
+			.bed {
+				width: 100%;
+				height: 30%;
+			
+				p {
+					font-size: 2em;
+					margin: 3% 15%;
+				}
+				.bedp {
+					width: 70%;
+					height: 10%;
+					background-color: lightgrey;
+					margin: 0% 15%;
+
+					.bedcp {
+						width: 60%;
+						height: 100%;
+						background-color: black;
+					}
+				}
+			}
+
+		}
+		.pl {
+			width: 100%;
+			height: 69%;
+		
+			p {
+				font-size: 2em;
+				margin: 2% 15%;
+			}
+			.title {
+				font-size: 2.5em;
+				margin: 1% 0%;
+			}
+			.lang {
+				width: 70%;
+				height: 1%;
+				margin: 0% 15%;
+				background-color: lightgrey;
+			}
+			.htmlp {
+				width: 99%;
+				height: 100%;
+				background-color: black;
+			}
+			.cssp {
+				width: 85%;
+				height: 100%;
+				background-color: black;
+			}
+			.jsp {
+				width: 90%;
+				height: 100%;
+				background-color: black;
+			}
+			.jqp {
+				width: 80%;
+				height: 100%;
+				background-color: black;
+			}
+			.vuep {
+				width: 85%;
+				height: 100%;
+				background-color: black;
+			}
+			.pyp {
+				width: 80%;
+				height: 100%;
+				background-color: black;
+			}
+			.dgp {
+				width: 70%;
+				height: 100%;
+				background-color: black;
+			}
+
+		}
+
+
+	}
+}
